@@ -6,6 +6,6 @@ description      'Installs/Configures protobuf'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
-%[ark].each do |dep|
+%w[ark].each do |dep|
 	depends dep
 end
